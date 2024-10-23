@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taymer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="number" id="minutes" placeholder="Daqiqalar" min="0">
+        <input type="number" id="seconds" placeholder="Soniyalar" min="0" max="59">
+        <button onclick="startTimer()">Boshlash</button>
+        <div id="timerDisplay" class="display">00:00</div>
+    </div>
+    <audio id="alarm" src="./Osmondagi bolalar.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
